@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pytorch3d
+Version: 0.7.6
+Summary: PyTorch3D is FAIR's library of reusable components for deep Learning with 3D data.
+Home-page: https://github.com/facebookresearch/pytorch3d
+Author: FAIR
+Requires-Dist: fvcore
+Requires-Dist: iopath
+Provides-Extra: all
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: tqdm>4.29.0; extra == "all"
+Requires-Dist: imageio; extra == "all"
+Requires-Dist: ipywidgets; extra == "all"
+Provides-Extra: dev
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: usort; extra == "dev"
