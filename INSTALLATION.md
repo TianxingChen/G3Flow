@@ -118,8 +118,6 @@ cd G3FlowDP/dp
 pip install -e .
 ```
 
-# Install DP3
-
 ## Weights & Assets Downloading
 Download weights for founcation models:
 ```
