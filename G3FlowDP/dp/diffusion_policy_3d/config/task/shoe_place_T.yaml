@@ -1,0 +1,34 @@
+name: shoe_place_T
+
+shape_meta: &shape_meta
+  # acceptable types: rgb, low_dim
+  obs:
+    point_cloud:
+      shape: [1024, 3]
+      type: point_cloud
+    agent_pos:
+      shape: [14]
+      type: low_dim
+    feature_point_cloud:
+      shape: [1024, null]
+      type: point_cloud
+  action:
+    shape: [14]
+
+env_runner:
+  _target_: diffusion_policy_3d.env_runner.G3FlowDP_runner.G3FlowDPRunner
+  max_steps: 300
+  n_obs_steps: ${n_obs_steps}
+  n_action_steps: ${n_action_steps}
+  task_name: robot
+
+dataset:
+  _target_: diffusion_policy_3d.dataset.G3FlowDP_dataset.G3FlowDPDataset
+  zarr_path: data/zarr_data/shoe_place_T_${expert_data_num}_${sample_num}_${n_components}_${feature_type}.zarr
+  horizon: ${horizon}
+  pad_before: ${eval:'${n_obs_steps}-1'}
+  pad_after: ${eval:'${n_action_steps}-1'}
+  seed: 0
+  val_ratio: 0.02
+  max_train_episodes: null
+

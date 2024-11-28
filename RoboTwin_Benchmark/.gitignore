@@ -1,0 +1,19 @@
+aloha_maniskill_sim/
+models/
+data/
+__pycache__/
+policy/3D-Diffusion-Policy/3D-Diffusion-Policy/data/
+policy/3D-Diffusion-Policy/3D-Diffusion-Policy/checkpoints/
+result/
+asset.zip
+aloha_maniskill_sim_tmp/
+models_copy/
+third_party/
+result_dp3/
+task_config/seeds/*.txt
+
+# Code Generation
+robotwin.py
+gpt_api/*
+tmp
+task_config/seeds

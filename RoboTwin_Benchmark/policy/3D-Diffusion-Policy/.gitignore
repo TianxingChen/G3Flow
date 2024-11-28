@@ -1,0 +1,4 @@
+3D-Diffusion-Policy/data/*
+third_party/
+third_party/pytorch3d
+checkpoints

@@ -1,0 +1,14 @@
+tools/debug_data
+tools/upload_files.py
+tools/weights/*.pth
+G3Flow/data
+data/*
+checkpoints/*
+tools/__pycache__
+photo_2_video.py
+cal_result.py
+viewpoint.json
+RoboTwin_Benchmark/result*
+result/*
+tools/visualize_image.py
+tools/upload_files.py

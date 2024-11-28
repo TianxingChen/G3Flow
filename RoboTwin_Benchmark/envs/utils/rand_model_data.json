@@ -1,0 +1,63 @@
+{
+    "number" : 6,
+    "model0": {
+        "name" : "024_brush",
+        "rotate_rand" : 1,
+        "rotate_lim" : [1.57,0,0],
+        "init_qpos" : [-0.588,0.391,0.476,0.413],
+        "model_z_val" : 1,
+        "xlim": [-0.35,0.35],
+        "ylim": [-0.15,0.3],
+        "zlim": [0.8]
+    },
+    "model1": {
+        "name" : "022_cup",
+        "rotate_rand" : 0,
+        "rotate_lim" : [0,0,0],
+        "init_qpos" : [0.707,0.707,0,0],
+        "model_z_val" : 1,
+        "xlim": [-0.35,0.35],
+        "ylim": [0,0.3],
+        "zlim": [0.8]
+    },
+    "model2": {
+        "name" : "019_coaster",
+        "rotate_rand" : 0,
+        "rotate_lim" : [0,0,0],
+        "init_qpos" : [0.707,0.707,0,0],
+        "model_z_val" : 1,
+        "xlim": [-0.35,0.35],
+        "ylim": [-0.15,0.25],
+        "zlim": [0.77]
+    },
+    "model3": {
+        "name" : "040_rack",
+        "rotate_rand" : 1,
+        "rotate_lim" : [0,0,0],
+        "init_qpos" : [-0.22, -0.22, 0.67, 0.67],
+        "model_z_val" : 0,
+        "xlim": [-0.35,0.35],
+        "ylim": [0,0.25],
+        "zlim": [0.8]
+    },
+    "model4": {
+        "name" : "028_dustpan",
+        "rotate_rand" : 1,
+        "rotate_lim" : [0,1.57,0],
+        "init_qpos" : [0.404, 0.404, 0.580, 0.580],
+        "model_z_val" : 1,
+        "xlim": [-0.35,0.35],
+        "ylim": [0,0.25],
+        "zlim": [0.78]
+    },
+    "model5": {
+        "name" : "020_hammer_2",
+        "rotate_rand" : 1,
+        "rotate_lim" : [1.57,0,0],
+        "init_qpos" : [0.686,-0.057, -0.721, -0.079],
+        "model_z_val" : 1,
+        "xlim": [-0.35,0.35],
+        "ylim": [-0.15,0.3],
+        "zlim": [0.78]
+    }
+}
