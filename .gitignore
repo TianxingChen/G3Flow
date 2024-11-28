@@ -12,3 +12,4 @@ RoboTwin_Benchmark/result*
 result/*
 tools/visualize_image.py
 tools/upload_files.py
+boost/*

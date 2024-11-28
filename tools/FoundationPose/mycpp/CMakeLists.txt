@@ -5,12 +5,8 @@ project(mycpp)
 set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -fopenmp -g3 -O3")
-# set(Boost_INCLUDE_DIR "~/boost/include")
-set(Boost_INCLUDE_DIR "/home/algo/chentianxing/boost/include")
+set(Boost_INCLUDE_DIR "${PROJECT_ROOT}/boost/include") # TODO
 
-
-
-find_package(Boost REQUIRED COMPONENTS system program_options)
 find_package(OpenMP REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(pybind11 REQUIRED)

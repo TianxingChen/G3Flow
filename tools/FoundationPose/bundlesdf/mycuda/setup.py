@@ -33,10 +33,7 @@ setup(
         ],extra_compile_args={'gcc': c_flags, 'nvcc': nvcc_flags}),
     ],
     include_dirs=[
-        '/home/algo/anaconda3/envs/fd/include/eigen3'
-        # "/home/muyao/anaconda3/envs/foundationpose/include/eigen3"
-        # "/usr/local/include/eigen3",
-        # "/usr/include/eigen3",
+        "${conda_path}/envs/G3Flow/include/eigen3" # TODO
     ],
     cmdclass={
         'build_ext': BuildExtension
