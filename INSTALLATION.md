@@ -121,12 +121,7 @@ pip install -e .
 ## Weights & Assets Downloading
 Download weights for founcation models:
 ```
-python tools/weights_for_g3flow/download_weights.py
-cd ../../RoboTwin_Benchmark
-mv ../tools/weights_for_g3flow/robotwin_models.zip ./
-unzip robotwin_models.zip
-mv robotwin_models/* ./
-rm robotwin_models.zip
+source tools/weights_for_g3flow/download_assets.sh
 ```
 
 ## Install Grounded-SAM

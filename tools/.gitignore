@@ -1,2 +1,3 @@
 weights_for_g3flow/*
-!download_weights.py
+!download_from_huggingface.py
+!download_assets.sh
