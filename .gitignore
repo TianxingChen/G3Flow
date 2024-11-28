@@ -13,3 +13,4 @@ result/*
 tools/visualize_image.py
 tools/upload_files.py
 boost/*
+tools/pytorch3d_simplified
