@@ -1,7 +1,7 @@
 setup.py
-/data/chentianxing/RoboTwin/third_party/pytorch3d_simplified/pytorch3d/csrc/ext.cpp
-/data/chentianxing/RoboTwin/third_party/pytorch3d_simplified/pytorch3d/csrc/sample_farthest_points/sample_farthest_points.cu
-/data/chentianxing/RoboTwin/third_party/pytorch3d_simplified/pytorch3d/csrc/sample_farthest_points/sample_farthest_points_cpu.cpp
+/data/chentianxing/G3Flow/tools/pytorch3d_simplified/pytorch3d/csrc/ext.cpp
+/data/chentianxing/G3Flow/tools/pytorch3d_simplified/pytorch3d/csrc/sample_farthest_points/sample_farthest_points.cu
+/data/chentianxing/G3Flow/tools/pytorch3d_simplified/pytorch3d/csrc/sample_farthest_points/sample_farthest_points_cpu.cpp
 pytorch3d/__init__.py
 pytorch3d.egg-info/PKG-INFO
 pytorch3d.egg-info/SOURCES.txt
