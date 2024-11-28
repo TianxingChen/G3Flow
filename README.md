@@ -2,7 +2,7 @@
 	G3Flow: Generative 3D Semantic Flow for Pose-aware and Generalizable Object Manipulation<br>
 </h1>
 
-[Project Page](https://tianxingchen.github.io/G3Flow/) | [PDF](https://tianxingchen.github.io/G3Flow/files/G3Flow.pdf) | [arXiv (Coming Soon)]() | [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTianxingChen%2FG3Flow&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Viewers&edge_flat=false)](https://hits.seeyoufarm.com)
+[Project Page](https://tianxingchen.github.io/G3Flow/) | [PDF](https://tianxingchen.github.io/G3Flow/files/G3Flow.pdf) | [arXiv](https://arxiv.org/abs/2411.18369) | [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTianxingChen%2FG3Flow&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Viewers&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <a href="https://tianxingchen.github.io/">Tianxing Chen</a><sup>\*</sup>, <a href="https://yaomarkmu.github.io/">Yao Mu</a><sup>* †</sup>, <a href="https://liang-zx.github.io/">Zhixuan Liang</a><sup>\*</sup>, Zanxin Chen, Shijia Peng, Qiangyu Chen, Mingkun Xu, Ruizhen Hu, Hongyuan Zhang, Xuelong Li, <a href="http://luoping.me/">Ping Luo</a><sup>†</sup>.
 
@@ -52,7 +52,7 @@ Coming Soon !
 ```
 
 # 😺 Acknowledgement
-Our code is generally built upon: [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), [FoundationPose](https://github.com/NVlabs/FoundationPose), [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything). We thank all these authors for their nicely open sourced code and their great contributions to the community.
+Our code is generally built upon: [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), [FoundationPose](https://github.com/NVlabs/FoundationPose), [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything), [DP3](https://github.com/YanjieZe/3D-Diffusion-Policy). We thank all these authors for their nicely open sourced code and their great contributions to the community.
 
 Contact [Tianxing Chen](https://tianxingchen.github.io) if you have any questions or suggestions.
 
