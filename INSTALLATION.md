@@ -57,12 +57,13 @@ CMAKE_PREFIX_PATH=$CONDA_PREFIX/lib/python3.9/site-packages/pybind11/share/cmake
 
 ## Install PyTorch3D
 ```
-cd tools/pytorch3d_simplified & pip install -e .
+cd tools/pytorch3d_simplified
+pip install -e .
 ```
 
 ## Install RoboTwin
 ```
-pip install sapien==3.0.0b1 scipy==1.10.1 mplib==0.1.1 gymnasium==0.29.1 trimesh==4.4.3 open3d==0.18.0 imageio==2.34.2 pydantic openai gdown
+pip install sapien==3.0.0b1 scipy==1.10.1 mplib==0.1.1 gymnasium==0.29.1 trimesh==4.4.3 open3d==0.18.0 imageio==2.34.2 pydantic
 ```
 
 ### REMOVE !!!!!!!!!
@@ -127,10 +128,10 @@ source tools/weights_for_g3flow/download_assets.sh
 
 ## Install Grounded-SAM
 ```
+cd tools/Grounded-Segment-Anything
+
 pip install dinov2
-
 python -m pip install -e segment_anything
-
 pip install --no-build-isolation -e GroundingDINO
 
 git submodule update --init --recursive
