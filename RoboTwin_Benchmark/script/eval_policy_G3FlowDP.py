@@ -43,7 +43,7 @@ TASK = None
 @hydra.main(
     version_base=None,
     config_path=str(pathlib.Path(__file__).parent.joinpath(
-        os.path.join('../../G3FlowDP/3D-Diffusion-Policy/diffusion_policy_3d'), 'config'))
+        os.path.join('../../G3FlowDP/dp/diffusion_policy_3d'), 'config'))
 )
 def main(cfg):
     test_scene = G3FlowVirtualSpace()
