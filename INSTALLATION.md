@@ -56,10 +56,7 @@ CMAKE_PREFIX_PATH=$CONDA_PREFIX/lib/python3.9/site-packages/pybind11/share/cmake
 ```
 
 ## Install PyTorch3D
-```
-cd tools/pytorch3d_simplified
-pip install -e .
-```
+pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
 
 ## Install RoboTwin
 ```
