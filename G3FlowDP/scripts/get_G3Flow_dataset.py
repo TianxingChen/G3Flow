@@ -82,7 +82,7 @@ if __name__ == '__main__':
             object_id = scene_info[f'{episode_idx}']['object_id'] # list
             assert sample_num % topk == 0, 'error: sample_num % topk != 0'
 
-            camera_intrinsic, cam2world_matrix = data['observation'][camera]['intrinsic_cv'], data['observation']['head_camera']['cam2world_gl']
+            camera_intrinsic, cam2world_matrix = data['observation'][camera]['intrinsic_cv'], data['observation'][camera]['cam2world_gl']
             color = data['observation'][camera]['rgb'][..., :3]
             depth = data['observation'][camera]['depth'][...] / 1000
             masks = detect_and_seg.detect_and_seg(color, text_prompt, topk=topk)
