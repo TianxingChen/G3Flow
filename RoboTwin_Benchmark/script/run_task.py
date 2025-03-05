@@ -5,6 +5,7 @@ import sapien.core as sapien
 from collections import OrderedDict
 import pdb
 from envs import *
+from envs.utils import ensure_dir
 import yaml
 import importlib
 import json
@@ -109,6 +110,7 @@ def run(Demo_class, args):
 
     else:
         print(f'using saved seeds list')
+        ensure_dir('./task_config/seeds/'+args['task_name']+'.txt')
         with open('./task_config/seeds/'+args['task_name']+'.txt', 'r') as file:
             seed_list = file.read().split()
             seed_list = [int(i) for i in seed_list]
