@@ -1,6 +1,8 @@
 import os, yaml
 
 names = [
+    "bottle_adjust_G",
+    "bottle_adjust_T",
     "tool_adjust_T", 
     "tool_adjust_G", 
     "bottle_adjust_T", 
