@@ -102,10 +102,12 @@ def run(Demo_class, args):
                 if (args['render_freq']):
                     Demo_class.viewer.close()
                 epid +=1
+                
         ensure_dir('./task_config/seeds/'+args['task_name']+'.txt')
         with open('./task_config/seeds/'+args['task_name']+'.txt', 'w') as file:
             for sed in seed_list:
                 file.write("%s " % sed)
+                
         print(f'\nComplete simulation, failed {fail_num} times')
 
     else:
