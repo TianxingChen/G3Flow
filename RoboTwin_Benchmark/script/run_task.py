@@ -102,7 +102,7 @@ def run(Demo_class, args):
                 if (args['render_freq']):
                     Demo_class.viewer.close()
                 epid +=1
-        
+        ensure_dir('./task_config/seeds/'+args['task_name']+'.txt')
         with open('./task_config/seeds/'+args['task_name']+'.txt', 'w') as file:
             for sed in seed_list:
                 file.write("%s " % sed)
@@ -110,7 +110,6 @@ def run(Demo_class, args):
 
     else:
         print(f'using saved seeds list')
-        ensure_dir('./task_config/seeds/'+args['task_name']+'.txt')
         with open('./task_config/seeds/'+args['task_name']+'.txt', 'r') as file:
             seed_list = file.read().split()
             seed_list = [int(i) for i in seed_list]
