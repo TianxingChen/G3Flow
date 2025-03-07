@@ -103,7 +103,7 @@ def run(Demo_class, args):
                     Demo_class.viewer.close()
                 epid +=1
                 
-        ensure_dir('./task_config/seeds/'+args['task_name']+'.txt')
+        os.makedirs(f'./task_config/seeds/', exist_ok=True)
         with open('./task_config/seeds/'+args['task_name']+'.txt', 'w') as file:
             for sed in seed_list:
                 file.write("%s " % sed)
