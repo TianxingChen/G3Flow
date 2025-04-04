@@ -56,7 +56,9 @@ CMAKE_PREFIX_PATH=$CONDA_PREFIX/lib/python3.9/site-packages/pybind11/share/cmake
 ```
 
 ## Install PyTorch3D
+```
 pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
+```
 
 ## Install RoboTwin
 ```
@@ -102,12 +104,6 @@ if np.linalg.norm(delta_twist) < 1e-4 or collide or not within_joint_limit:
 if np.linalg.norm(delta_twist) < 1e-4 or not within_joint_limit:
                 return {"status": "screw plan failed"}
 ```
-
-if np.linalg.norm(delta_twist) < 1e-4 or collide or not within_joint_limit:
-                return {"status": "screw plan failed"}
-=>
-if np.linalg.norm(delta_twist) < 1e-4 or not within_joint_limit:
-                return {"status": "screw plan failed"}
 
 ## Install Diffusion Policy
 ```
