@@ -48,11 +48,13 @@ bash eval.sh ${task_name} ${expert_data_num} ${n_components} ${seed} ${gpu_id}
 If you find our work useful, please consider citing:
 
 ```
-@article{chen2024g3flow,
-  title={G3Flow: Generative 3D Semantic Flow for Pose-aware and Generalizable Object Manipulation},
-  author={Chen, Tianxing and Mu, Yao and Liang, Zhixuan and Chen, Zanxin and Peng, Shijia and Chen, Qiangyu and Xu, Mingkun and Hu, Ruizhen and Zhang, Hongyuan and Li, Xuelong and others},
-  journal={arXiv preprint arXiv:2411.18369},
-  year={2024}
+@InProceedings{Chen_2025_CVPR,
+    author    = {Chen, Tianxing and Mu, Yao and Liang, Zhixuan and Chen, Zanxin and Peng, Shijia and Chen, Qiangyu and Xu, Mingkun and Hu, Ruizhen and Zhang, Hongyuan and Li, Xuelong and Luo, Ping},
+    title     = {G3Flow: Generative 3D Semantic Flow for Pose-aware and Generalizable Object Manipulation},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {1735-1744}
 }
 ```
 
